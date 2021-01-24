@@ -5,6 +5,10 @@ textarea:focus{
   border-color: #52bab3;
 }
 
-:disabled{
+input:disabled{
   background: #ddd;
  }
+
+input[type="checkbox"]:checked+label{
+
+}
